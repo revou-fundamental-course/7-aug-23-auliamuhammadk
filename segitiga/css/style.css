@@ -1,0 +1,184 @@
+.judul  {
+    text-align: center;
+}
+
+.judul2  {
+    text-align: center;
+}
+
+.kjudul {
+    text-align: center;
+}
+
+.kjudul2 {
+    text-align: center;
+    margin-top: -5px;
+}
+
+.kotak1 {
+    background-color: #0077B6;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    margin: auto;
+    width: 80%;
+}
+
+.sgt {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.kek {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header{
+    
+    background-color: #0077B6;
+    
+    margin-top: -22px;
+}
+
+.ls{
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.img1{
+    text-align: center;
+}
+
+.imgd1{
+    height: 50%;
+    width: 50%;
+}
+
+.p2{
+    font-weight: bold;
+    text-align: center;
+}
+
+.bungkus{
+    border-style: solid;
+    border-color: #0077B6;
+    width: 80%;
+    margin: auto;
+    
+}
+
+.bungkus2{
+    border-style: solid;
+    border-color: #0077B6;
+    width: 80%;
+    margin: auto;
+    
+}
+
+.isi{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.isi2{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.in1{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.in2{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.in3{
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+
+.in4{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.in5{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#i1{
+    width: 100%;
+}
+
+#i2{
+    width: 100%;
+}
+
+#i3{
+    width: 100%;
+}
+
+#i4{
+    width: 100%;
+}
+
+#i5{
+    width: 100%;
+}
+
+.submit{
+
+text-align: center;
+}
+
+.submit1{
+
+    text-align: center;
+    }
+
+.sb{
+    background-color: #0077B6;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.sb1{
+    background-color: #0077B6;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.reset{
+    text-align: end;
+    margin: 20px;
+}
+
+.reset1{
+    text-align: end;
+    margin: 20px;
+}
+
+.rs{
+    background-color: #FBBB04;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.rs1{
+    background-color: #FBBB04;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}

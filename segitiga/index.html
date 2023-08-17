@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kalkulator segitiga revou</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1 class="judul">Welcome to Katik</h1>
+    <p class="kjudul">Hai Sobat, Selamat datang di Katik :]</p>
+    <p class="kjudul2">Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
+    <div class="kotak1">
+        <p class="sgt">Segitiga</p>
+    </div>
+    <a href="#hkel" class="kek">Hitung Keliling</a>
+
+    <div class="bungkus">
+        <div class="header">
+            <h1 class="ls">Luas Segitiga</h1>
+        </div>
+
+        <div class="img1">
+        <img src="https://nidanurzahra.files.wordpress.com/2018/12/segitiga.jpg" alt="segitiga" class="imgd1">
+        </div>
+
+        <div class="isi">
+        <p class="p1">Rumus Luas Segitiga yaitu :</p>
+        <p class="p2">L=1/2 x a x t</p>
+        <p>Dimana :</p>
+        <p>L = Luas</p>
+        <p>a = Panjang Alas</p>
+        <p>t = Tinggi</p>
+        </div>
+        
+        <br>
+        <hr>
+        <br>
+        <h1 class="judul2">Hitung Luas Segitiga</h1>
+
+        <form action="">
+            <div class="in1">
+                <input type="number" id="i1" placeholder="Nilai Alas">
+            </div>
+            <br>
+            <div class="in2">
+                <input type="number" id="i2" placeholder="Nilai Tinggi">
+            </div>
+            <br>
+
+            <div class="isi2">
+                <p>L = 1/2 x a x t</p>
+                <span id="h11">L = 1/2 x a x t</span>
+                <p id="h12">L = Hasil</p>
+            </div>
+
+            <div class="submit1">
+                <input type="button" class="sb1" value="Hitung" onclick="hitung()">
+            </div>
+
+            <div class="reset1">
+                <input type="button" class="rs1" value="Reset" onclick="reset()">
+            </div>
+        </form>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div class="bungkus2" id="hkel">
+        <div class="header">
+            <h1 class="ls">Keliling Segitiga</h1>
+        </div>
+
+        <div class="img1">
+        <img src="https://nidanurzahra.files.wordpress.com/2018/12/segitiga.jpg" alt="segitiga" class="imgd1">
+        </div>
+
+        <div class="isi">
+        <p class="p1">Rumus Keliling Segitiga yaitu :</p>
+        <p class="p2">K = S1 + S2 + S3</p>
+        <p>Dimana :</p>
+        <p>K = Keliling</p>
+        <p>S1 = Sisi A</p>
+        <p>S2 = Sisi B</p>
+        <p>S3 = Sisi C</p>
+        </div>
+        
+        <br>
+        <hr>
+        <br>
+        <h1 class="judul2">Hitung Keliling Segitiga</h1>
+
+        <form action="">
+            <div class="in3">
+                <input type="number" id="i3" placeholder="Sisi A">
+            </div>
+            <br>
+            <div class="in4">
+                <input type="number" id="i4" placeholder="Sisi B">
+            </div>
+            <br>
+            <div class="in5">
+                <input type="number" id="i5" placeholder="Sisi C">
+            </div>
+            <br>
+
+            <div class="isi2">
+                <p>K = S1 + S2 + S3</p>
+                <p id="h21">K = S1 + S2 + S3</p>
+                <p id="h22">K = hasil</p>
+            </div>
+
+            <div class="submit">
+                <input type="button" class="sb" value="Hitung" onclick="hitung2()">
+            </div>
+
+            <div class="reset">
+                <input type="button" class="rs" value="Reset" onclick="reset2()">
+            </div>
+        </form>
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
